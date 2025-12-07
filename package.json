@@ -1,0 +1,39 @@
+{
+  "name": "ecommerce-tailwind-template",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "format": "prettier --write \"src/**/*.{js,jsx,json,css,md}\""
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
+    "@reduxjs/toolkit": "^1.9.7",
+    "@vitejs/plugin-react": "^5.1.1",
+    "axios": "^1.13.2",
+    "date-fns": "^4.1.0",
+    "lucide-react": "^0.555.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.68.0",
+    "react-hot-toast": "^2.6.0",
+    "react-icons": "^5.5.0",
+    "react-loading-skeleton": "^3.5.0",
+    "react-redux": "^8.1.3",
+    "react-router-dom": "^7.10.1",
+    "redux-persist": "^6.0.0",
+    "swiper": "^12.0.3",
+    "yup": "^1.7.1",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.4.7",
+    "vite": "^5.2.0"
+  }
+}
